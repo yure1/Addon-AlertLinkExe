@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "name" : "AlertLinkExe",
+    "version" : "1.0",
+
+    "description" : "This Addon paint [.exe Link].",
+
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["content.js"]
+        }
+    ]
+}
