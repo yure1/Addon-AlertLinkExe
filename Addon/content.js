@@ -26,9 +26,7 @@ function ManualCheckExeLink() {
             checkExeLink();
         
         }
-    
     })
-
 }
 
 window.addEventListener("DOMContentLoaded", ManualCheckExeLink());
